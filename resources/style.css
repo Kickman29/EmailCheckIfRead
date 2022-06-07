@@ -1,0 +1,51 @@
+
+
+th {
+  color: rgb(238, 238, 238);
+  font-size: x-large;
+  font-weight: 400;
+  padding: 6pt;
+  border: 18px solid rgb(15 , 15, 15);
+  background-color: rgb(45, 35, 30);
+}
+
+td {
+  font-size: large;
+  color: rgb(190 , 190, 190);
+  padding: 6pt;
+  border: 3px solid rgb(15 , 15, 15);
+  background-color: rgb(31, 31, 31);
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+h1 {
+  color: white;
+  font-size: xxx-large;
+  font-weight: 400;
+}
+
+html {
+  background-color: rgb(15 , 15, 15);
+}
+
+button {
+  background-color: rgb(15 , 15, 15);
+  color: goldenrod;
+  font-size: large;
+  font-weight: 400;
+  border: none;
+  padding: 6pt;
+  border-radius: 4px;
+  cursor: pointer;
+}

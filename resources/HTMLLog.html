@@ -1,0 +1,34 @@
+<html>
+
+<head>
+	<title>Link Read Checker</title>
+	<link rel="stylesheet" href="./style.css">
+
+</head>
+<div>
+
+	<body>
+		<h1 class="center">Link Read Checker</h1>
+	</body>
+</div>
+
+<form method="post" action="/clearlog">
+	<div class="right">
+		<button onClick="window.location.reload();"> <h3>Refresh Page<h3></button>
+
+		<button> <h5 class="right">Clear log</h5> </button>
+	</div>
+<div>
+	<table border="">
+		<tr>
+			<th>Timestamp</th>
+			<th>DeviceInfo</th>
+			<th>Requested URI</th>
+			<th>IP Address</th>
+		</tr>
+		<div id="start"></div><div id="end"></div>
+    </table>
+</div>
+
+
+</html>
